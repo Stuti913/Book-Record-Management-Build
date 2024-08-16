@@ -1,0 +1,22 @@
+{
+  "name": "book-record-management-build",
+  "version": "1.0.0",
+  "description": "library system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Stuti913/Book-Record-Management-Build.git)"
+  },
+  "author": "stuti",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
