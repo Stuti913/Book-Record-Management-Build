@@ -107,3 +107,13 @@ name: stuti
 surname:chaturvedi
 email: user@email.com
 subscriptioType: "Premium"
+
+
+ const index = users.indexOf(user);
+  users.splice(index,1)
+
+
+  var class = ["six", "seven", "eight"];
+  indexOf()
+  class.indexOf("seven")
+  1
