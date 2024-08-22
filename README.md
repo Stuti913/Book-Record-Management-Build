@@ -1,10 +1,10 @@
-# Book-Record-Management-Build
+# J0123P3-Build
 
-Server >> Storing certain book data
-       >> User Register
-       >> Subscriber
+Server  >> Storing certain book data
+        >> User Register
+        >> Subscriber
 
-       
+
 This is a book record managemnt API Server/ Backend for the library system or managemnet of records or manuals or books
 
 Fine System:
@@ -51,12 +51,12 @@ missed by renewal && subscription date >> 150/-
 # Routes and Endpoints
 
 ## /users
-POST: Create a new user
-GET: Get all the user info here
+POST: Creating a new user
+GET: Get all the users
 
 ## /users/{id}
-GET: Get a user by id
-PUT: Update a user by their ID
+GET: Get user by id
+PUT: Updating a user by their ID
 DELETE: Delete a user by id (chk if he/she still have an issued book) && (is there any fine to paid)
 
 ## /users/subscription-details/{id}
@@ -79,12 +79,12 @@ GET: Get all issued books
 ## /books/issued/withFine
 GET: Get all issued books with their fine
 
+
+
+
 ## npm init
 ## npm i nodemon --save-dev
 ## npm run dev
-
-
-
 
 
 
@@ -99,17 +99,17 @@ GET: Get all issued books with their fine
 
 ...data
   "data": {
-    ## "name": "stuti",
-    ## "surname": "chaturvedi"
+    ## "name": "rohan",
+    ## "surname": "kinnal"
   }
 
-name: stuti
-surname:chaturvedi
+name: rohan
+surname: kinnal
 email: user@email.com
 subscriptioType: "Premium"
 
 
- const index = users.indexOf(user);
+  const index = users.indexOf(user);
   users.splice(index,1)
 
 
@@ -117,3 +117,24 @@ subscriptioType: "Premium"
   indexOf()
   class.indexOf("seven")
   1
+
+
+
+<!-- Jan 1 1970 UTC //MillSecs -->
+
+  new Date()
+Fri Mar 10 2023 21:20:41 GMT+0530 (India Standard Time)
+new Date("01/01/1999")
+Fri Jan 01 1999 00:00:00 GMT+0530 (India Standard Time)
+const date = new Date("01/01/1999");
+undefined
+date
+Fri Jan 01 1999 00:00:00 GMT+0530 (India Standard Time)
+Math.floor(date/1000*60*60*24);
+79067145600000
+Math.floor(date/(1000*60*60*24));
+10591
+let dateNew = new Date();
+undefined
+Math.floor(dateNew/(1000*60*60*24));
+19426
